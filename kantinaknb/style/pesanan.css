@@ -1,0 +1,99 @@
+* {
+    font-family: "montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #780000;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+.header h3 {
+    color: white;
+}
+.navbar ul li a {
+    display: flex;
+    text-decoration: none; 
+    color: white;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+/* Navbar */
+
+/* Pesanan */
+.pesanan-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.pesanan-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icikiwir {
+    display: flex;
+    align-items: center;
+}
+
+.pesanan-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 500px;
+    background-color: #d9d9d9;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.pesanan-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.pesanan-info {
+    text-align: left;
+}
+
+
+.pesanan-info h1 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.pesanan-info p {
+    color: #555;
+    margin: 5px 0 0;
+}
+
+.no-pesanan {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Pesanan end */
+.batal {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+/* Button */

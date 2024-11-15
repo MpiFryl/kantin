@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+    overflow: hidden;
+}
+/* Main */
+.main {
+    display: flex;
+}
+
+.main menu {
+    padding: 100px;
+}
+
+.main hr {
+    border: 1px solid;
+}
+/* Main end */
+
+/* Navbar */
+.navbar {
+    background-color: #780000;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header h3 {
+    color: white;
+}
+.header img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar ul li {
+    display: flex;
+}
+.navbar ul li a {
+    text-decoration: none; 
+    color: white;
+    display: flex;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+/* Navbar end */
+
+/* Sidebar */
+.sidebar {
+    background-color: #d9d9d9;
+    width: 220px;
+    height: 100vh;
+    padding: 10px;
+}
+.pilih {
+    padding: 20px;
+}   
+.sidebar h3 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+hr {
+    margin-bottom: 30px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn button {
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #b2b2b2;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.btn img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.btn button:hover {
+    border: none;
+}
+
+.btn button:active {
+    border: 2px solid red;
+}
+/* Sidebar end */
+
+/* Menu */
+section .menu {
+    padding: 20px;
+    height: 95vh;
+    overflow-y: auto;
+    width: 140vh;
+    box-sizing: border-box;
+}
+section .menu > div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+section .menu hr {
+    margin-top: 25px;
+    margin-bottom: 0px;   
+}
+section .menu .nasgor {
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: 2px solid;
+    justify-content: space-between;
+    margin: 0px 20px 20px;
+}
+section .menu .nasgor img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 1px solid;
+}
+section .menu .nasgor > div {
+    display: flex;
+    align-items: center;
+}
+section .menu button {
+    background-color: #009314;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+/* Menu end */
